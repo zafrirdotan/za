@@ -1,0 +1,90 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+}
+
+h1 {
+  color: silver;
+  text-align: center;
+}
+
+.piano {
+  background: black;
+  padding: 50px;
+  border: 15px ridge gray;  
+  width: 500px;
+  height: 500px;
+  display:flex;
+  flex-wrap: wrap;
+  margin: auto;
+  color: silver;
+  font-size: 10em;
+  font-family: fantasy;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.note {
+  width: 50%;
+  height: 50%;
+  border: 5px outset silver;
+  text-align: center;
+  opacity: 0.65;
+}
+
+.note0 {
+  border-top-left-radius:   100%;
+  
+}
+.note1 {
+  border-top-right-radius:   100%;
+}
+.note2 {
+  border-bottom-left-radius:   100%;
+}
+.note3 {
+  border-bottom-right-radius:   100%;
+}
+
+.playing {
+  border-style: inset;
+  opacity: 1;
+}
+
+.startBtn {
+  margin: auto;
+}
+
+.muteBtn {
+  margin: auto;
+  /*display: inline;*/
+}
+.scoreContiner{
+    height: 55px;
+    width: 156px;
+    justify-content: flex-end;
+    text-align: center;
+    color: silver;
+    background-color: #3e2f2f;
+    font-family: fantasy;
+    font-size: 2em;
+    position: absolute;
+    left: 422px;
+    top: 152px;
+    border: 4px ridge silver;
+}
+/*.bestScoreContiner{
+    height: 55px;
+    width: 156px;
+    justify-content: flex-end;
+    text-align: center;
+    color: silver;
+    background-color: #3e2f2f;
+    font-family: fantasy;
+    font-size: 2em;
+    position: absolute;
+    left: 108px;
+    top: 152px;
+    border: 4px ridge silver;
+}*/

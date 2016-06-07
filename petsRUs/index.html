@@ -1,0 +1,67 @@
+<html>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/stylesheet.css"> 
+    <body >
+        <h1>We sell pets </h1>
+        
+         <div class="formLine " >
+            <label for="email"> Email:</label> 
+            <br>
+            <input type="email" name="email" id="email" autofocus required  onkeydown = "if (event.keyCode == 13){ValidateEmail()}">
+        </div> 
+         <div class="formLine">
+            <label for="pass">Password:</label> 
+            <br>
+            <input type="password" name="pass" id="pass"  />
+        </div>      
+        <div class="formLine petPolicyBox" >
+            <h1>Pet Policy</h1>     
+            <div class= "petRow">
+                <input type="radio" name="petPolicy" id="Dog'sPerson'" value="Dog's"> 
+                <label for="genderMale">Dog's Person</label>
+            </div>
+            <div class= "petRow">
+                <input type="radio" name="petPolicy" id="Cat'sPerson"  value="Cat's">
+                <label for="genderFemale">Cat's Person</label>
+            </div>
+        </div>  
+        <div class="formLine selfDescriptionBox">
+            <label for="desc">Some words about me:</label> 
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="I am interested in..."></textarea>
+        </div> 
+        
+        <div class="formLine favoritAnimal"  >
+            <label for="animal">Favorit animal:</label> 
+            <br>
+            <select name="animal" id="animal" onchange="showSelectedImg(this.value)">
+            
+            <option value="">Pick an animal</option>
+            <option value="ca">Cat</option>
+            <option value="do">Dog</option>
+            <option value="fi">Fishn</option>
+            
+            </select>
+
+            
+            <input type="checkbox" id="agree" name="agree" value="yes">
+            <label for="agree"> Agree?</label>
+            
+            <div class="continer" >
+                <img src="" alt="">
+            </div>
+            
+            
+        </div> 
+        
+        <div class="popUp" style="display: none" >Welcome</div>
+            
+            
+        <botton class="sendBotton" onclick="clickedSend()">Send</botton>
+     <script src="js/ex.1.js"></script> 
+    </body>
+    
+    
+    
+</html>    
+
+

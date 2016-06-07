@@ -1,0 +1,91 @@
+
+
+.formLine {
+  margin:10px;
+  padding:10px;
+  background-color: white;
+}
+
+.focus{
+  background-color: cornflowerblue;
+}
+
+.petPolicyBox{
+  border: 1px;
+  border-color:  black;
+  border-style:  groove; 
+  width: 300px;
+  height:150px;
+  margin-left: 20px;
+}
+.petPolicyBox h1{
+    font-size: 20px;
+    position: relative;
+    top: -37;
+    background-color: white;
+    width: 95px;
+    padding-left: 10px;
+}
+.petRow{
+  margin: 10px;
+}
+.selfDescriptionBox{
+ 
+  width: 300px;
+  height:150px;
+  margin-left: 20px;
+  position: relative;
+  top: 15px;
+}
+.selfDescriptionBox label {
+    cursor: default;
+    font-size: 20px;
+    position: relative;
+    top: -36px;
+}
+.selfDescriptionBox textarea {
+    padding: 2px 0px 0px 2px;
+    position: relative;
+    bottom: 25px;
+}
+.favoritAnimal{
+  float: left;
+}
+.sendBotton{
+    background-color: #A59898;
+    position: absolute;
+    left: 96px;
+    width: 65px;
+    height: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 6px 0px 0px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    bottom: -345px;
+}
+
+.continer{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    float: right;
+    position: relative;
+    left: 20px;
+}
+
+.continer img{
+  max-width: 200px;
+}
+
+.popUp{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 167px;
+    left: 162px;
+    text-align: center;
+}
+

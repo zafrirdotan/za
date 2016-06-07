@@ -1,0 +1,84 @@
+td{
+  width: 60px;
+  height: 30px;
+}
+
+.readButton{
+    background-color: blue;
+    left: 3px;
+    top: 0px;
+    position: relative;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.updateCall{
+  width: 70px;
+}
+.updateButton{
+    background-color: yellow;
+    left: 3px;
+    top: 0px;
+    position: relative;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.deleteCall{
+  width: 70px;
+}
+
+.deleteButton{
+    background-color: red;
+    left: 3px;
+    top: 0px;
+    position: relative;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.addButton{
+  color: blue;
+  cursor: pointer;
+}
+
+.bookDisplay{
+    border: 1px;
+    width: 423px;
+    height: 200px;
+    position: relative;
+    display: block;
+}
+.bookDetails{
+    border: 1px;
+    background-color: white;
+    width: 219px;
+    display: inline-block;
+    height: 200px;
+    color: black;
+    left: 23px;
+}
+.bookDetails h1{
+    font-size: 20px;
+    position: relative;
+    bottom: 9px;
+}
+.bookImg{
+    border: 1px;
+    background-color: white;
+    width: 200px;
+    display: inline-block;
+    height: 200px;
+    left: -4px;
+    position: relative;
+}
+.bookImg img{
+  width: 200px;
+  height: 200px;
+}
+
+.thumbsUpButton{
+    width: 64px;
+    height: 73px;
+    position: relative;
+    top: -10px;
+}
